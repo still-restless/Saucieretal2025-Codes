@@ -2,11 +2,6 @@ close all
 clear all
 clc
 
-%% To do
-% Update the enclave number so that it does no exceed 20% of the volume be
-% carfull here of distinguidhing the volume of the enclave vs the volume of
-% the pockets around it.
-
 %% Size of Gas pockets
 % Assuming the geometry of a high permeability pocket can be aproximated by
 % the shape of an ellipsoid with side a and b = c, where b is the diameter
@@ -119,5 +114,6 @@ for m=[3]
         y = (nb_pockets(n)/enclav_per_m3)/x
     end
 end
+
 
 
