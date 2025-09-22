@@ -1,10 +1,16 @@
 INTRODUCTION
+
 This repository contains 4 stand alone set of data and codes associated with the paper Saucier et al., 2025. All codes were written to be run in Matlab.
 Contents:
+
 •	GasVolume.m
+
 •	TinyPerm_RawData
+
 •	TinyPerm_Grids
+
 •	Lab Permeability and Porosity
+
 GASVOLUME.M
 GasVolume.m has material related to section 5.3 A Mechanism for Cyclic Explosive Gas Venting. This code can be run on its own in Matlab and contains comments guiding the reader. Any input values selection and or detail are contained with the main manuscript and/or the supplementary materials. 
 TINYPERM_RAWDATA
