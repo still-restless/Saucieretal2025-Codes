@@ -1,28 +1,23 @@
 **Introduction**
-
 This repository contains 4 sets of data and codes associated with the paper Saucier et al., 2025. All codes were written to be run in Matlab.
 
 
 
 **GasVolume.m**
-
 GasVolume.m has material related to section 5.3 A Mechanism for Cyclic Explosive Gas Venting. This code can be run on its own in Matlab and contains comments guiding the reader. Any input value selection and/or assumptions underlying them are detailed in the main manuscript and/or the supplementary materials.
 
 
 
 **TinyPerm_RawData**
-
 The TinyPerm_RawData folder contains the raw data from the TinyPerm measurements, including failed measurements. All data can be visualized using the included Matlab app. Contact the corresponding author if support is needed for visualizing these data.
 
 
 **TinyPerm_Grids**
-
 The TinyPerm_Grids folder should be downloaded as is. It contains the processed data from the TinyPerm measurement, as well as the codes used to create the visualization plotted in main text figures.
 
 
 
 **Lab Permeability and Porosity**
-
 The Lab_Permeability_and_Porosity_Plus_Comparison folder should be downloaded as is and kept in its current architecture when running the codes it contains. Inside, there are data for permeability and porosity lab measurements, as well as codes to plot these data both to reproduce the figures that were used to analyze the data, as well as to make the final figures displayed in the paper. The New April 2025 folder within it refers to an additional set of data that was acquired at a later date than the initial data to complement the first set of data.
 
 The subfolders Permeameter and Pycnometer contain the raw data files of the respective instrument. All processing of the data was done using the Matlab code Main_Permeability_and_Porosity.m. The Processed data for the Permeameter and Pycnometer are found as Permeameter.mat and Pycnometer.mat respectively. Below is an explanation of how the permeability data was processed as well as how error analysis was carried out.
